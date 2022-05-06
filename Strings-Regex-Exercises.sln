@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertFromBase10ToBase-N", "ConvertFromBase10ToBase-N\ConvertFromBase10ToBase-N.csproj", "{0B040A58-E42C-4604-88E5-DCCFDD8E943B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base10ToBaseN-New", "Base10ToBaseN-New\Base10ToBaseN-New.csproj", "{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B040A58-E42C-4604-88E5-DCCFDD8E943B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B040A58-E42C-4604-88E5-DCCFDD8E943B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B040A58-E42C-4604-88E5-DCCFDD8E943B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B040A58-E42C-4604-88E5-DCCFDD8E943B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B040A58-E42C-4604-88E5-DCCFDD8E943B}</ProjectGuid>
+    <ProjectGuid>{4FF0AB3B-3E9F-4071-9EBC-340707FF89A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConvertFromBase10ToBase_N</RootNamespace>
-    <AssemblyName>ConvertFromBase10ToBase-N</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Base10ToBaseN_New</RootNamespace>
+    <AssemblyName>Base10ToBaseN-New</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

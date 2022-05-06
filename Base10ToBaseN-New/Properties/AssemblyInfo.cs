@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConvertFromBase10ToBase-N")]
+[assembly: AssemblyTitle("Base10ToBaseN-New")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConvertFromBase10ToBase-N")]
+[assembly: AssemblyProduct("Base10ToBaseN-New")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0b040a58-e42c-4604-88e5-dccfdd8e943b")]
+[assembly: Guid("4ff0ab3b-3e9f-4071-9ebc-340707ff89a8")]
 
 // Version information for an assembly consists of the following four values:
 //
