@@ -8,19 +8,19 @@ namespace SumBigNumbers
     {
         static void Main()
         {
-            string firstNumber = Console.ReadLine();
-            string secondNumber = Console.ReadLine();
+            string firstNumbers = Console.ReadLine();
+            string secondNumbers = Console.ReadLine();
 
-            int maxLen = Math.Max(firstNumber.Length, secondNumber.Length);
-            firstNumber = firstNumber.PadLeft(maxLen, '0');
-            secondNumber = secondNumber.PadLeft(maxLen, '0');
+            int maxLen = Math.Max(firstNumbers.Length, secondNumbers.Length);
+            firstNumbers = firstNumbers.PadLeft(maxLen, '0');
+            secondNumbers = secondNumbers.PadLeft(maxLen, '0');
 
             var sum = new StringBuilder();
             int mindNumber = 0;
 
-            for (int i = firstNumber.Length - 1; i >= 0; i--)
+            for (int i = firstNumbers.Length - 1; i >= 0; i--)
             {
-                int digitSum = int.Parse(firstNumber[i].ToString()) + int.Parse(secondNumber[i].ToString()) + mindNumber;
+                int digitSum = int.Parse(firstNumbers[i].ToString()) + int.Parse(secondNumbers[i].ToString()) + mindNumber;
                 mindNumber = 0;
                 if (digitSum > 9)
                 {
@@ -36,7 +36,10 @@ namespace SumBigNumbers
 
                 sum.Append(digitSum);
             }
-            var result = new string(sum.ToString().Reverse().SkipWhile(x => x == '0').ToArray());
+            var result = new string(sum.ToString()
+                .Reverse()
+                .SkipWhile(x => x == '0')
+                .ToArray());
             Console.WriteLine(result);
 
 
