@@ -95,7 +95,6 @@ namespace MultiplyBigNumber
                     }
                     sum.Clear();
                     sum.Append(currSum.ToString());
-
                 }
             }
         }
