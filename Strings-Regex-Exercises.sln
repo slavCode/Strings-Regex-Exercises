@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyBigNumber", "Multip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersChangeNumbers", "LettersChangeNumbers\LettersChangeNumbers.csproj", "{7D70A206-BB04-44F1-B059-DAF8506B239A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelrahShake", "MelrahShake\MelrahShake.csproj", "{F26C2749-7236-49D7-B47F-1EF3869A2192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractЕmails", "ExtractЕmails\ExtractЕmails.csproj", "{B1EEC386-FFAE-4ED3-8690-30A5E96C6411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{7D70A206-BB04-44F1-B059-DAF8506B239A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D70A206-BB04-44F1-B059-DAF8506B239A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D70A206-BB04-44F1-B059-DAF8506B239A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26C2749-7236-49D7-B47F-1EF3869A2192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26C2749-7236-49D7-B47F-1EF3869A2192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26C2749-7236-49D7-B47F-1EF3869A2192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26C2749-7236-49D7-B47F-1EF3869A2192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EEC386-FFAE-4ED3-8690-30A5E96C6411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EEC386-FFAE-4ED3-8690-30A5E96C6411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EEC386-FFAE-4ED3-8690-30A5E96C6411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EEC386-FFAE-4ED3-8690-30A5E96C6411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
